@@ -1,8 +1,8 @@
 import java.io.*;
-class Person {
+class PersonN{
   int a = 0;
   static int m; // static variable is first created
-  Person(){
+  PersonN(){
     m++;
     }
   public void showdata(){
@@ -13,11 +13,11 @@ class Person {
 
 
 
-public class Main {
+public class Person{
   public static void main(String[] args) {
-      Person am = new Person();
+      PersonN am = new PersonN();
       am.showdata();
-      Person st = new Person();
+      PersonN st = new PersonN();
       st.showdata();
     }
  }
