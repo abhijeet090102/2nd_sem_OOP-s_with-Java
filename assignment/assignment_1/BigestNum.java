@@ -17,11 +17,11 @@ class BigestNum {
     public static void main(String[] args){
         Scanner am = new Scanner(System.in);
         int a , m ,t;
-        System.out.println("The the first number ");
+        System.out.println("Enter the first number ");
         a = am.nextInt();
-        System.out.println("The the Second number ");
+        System.out.println("Enter the Second number ");
         m = am.nextInt();
-        System.out.println("The the Third number ");
+        System.out.println("Enter the Third number ");
         t = am.nextInt();
         big ob = new big();
         ob.big_num(a,m,t);

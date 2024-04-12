@@ -14,7 +14,9 @@ class Swap{
     public static void main(String[] args){
         Scanner am = new Scanner(System.in);
         int a ,m;
+        System.out.print("Enter the first no :");
         a = am.nextInt();
+        System.out.print("Enter the second no :");
         m = am.nextInt();
         Swap_am ob = new Swap_am();
         ob.swap(a,m);
