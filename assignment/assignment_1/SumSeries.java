@@ -10,7 +10,7 @@ class SumSeries{
 		}
 	System.out.println("the factorial of "+num+" sum is :"+sum);
 	}
-	static int fact(int num){
+	int fact(int num){
 		if(num ==0){
 			return 1;
 		}

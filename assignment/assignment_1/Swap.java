@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 class Swap_am {
-    int swap (int am , int st){
+    Swap_am (int am , int st){
         System.out.println("The value of am "+am +" and the value of st "+st+" before swaping");
         int temp = am;
         am = st;
@@ -18,8 +18,8 @@ class Swap{
         a = am.nextInt();
         System.out.print("Enter the second no :");
         m = am.nextInt();
-        Swap_am ob = new Swap_am();
-        ob.swap(a,m);
+        Swap_am ob = new Swap_am(a,m);
+        //ob.swap(a,m);
 
     }
 }
